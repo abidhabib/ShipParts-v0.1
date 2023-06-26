@@ -47,7 +47,24 @@ const Item = ({ title, children }) => {
         <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div class="flex flex-col mb-16 sm:text-center">
             <a href="/" class="mb-6 sm:mx-auto">
-              <div class="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
+            
+            </a>
+            <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
+              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                           
+                           
+                           <div className="faqmng"
+                           style={
+
+                            {
+                                display: "flex",
+marginLeft: "20px",                           }
+                           }
+                           
+                           >
+                               Frequently Asked Questions
+
+                               <div class="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
                 <svg
                   class="w-10 h-10 text-deep-purple-accent-400"
                   stroke="currentColor"
@@ -61,15 +78,9 @@ const Item = ({ title, children }) => {
                     points="29 13 14 29 25 29 23 39 38 23 27 23"
                   />
                 </svg>
+                </div>
+
               </div>
-            </a>
-            <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
-              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-                <span class="relative inline-block">
-               
-                   
-                </span>{' '}
-                Frequently Asked Questions
               </h2>
               <p class="text-base text-gray-700 md:text-lg">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem

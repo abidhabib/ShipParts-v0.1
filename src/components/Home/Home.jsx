@@ -5,6 +5,8 @@ import Counter from '../Counter'
 import Header from '../Helpform'
 import Company from '../Companies'
 import Faq from '../FAQs'
+import { Content } from '../Content'
+import { Footer } from '../Footer/Footer'
 const Home = () => {
   return (
 <>
@@ -21,13 +23,15 @@ const Home = () => {
     <div className="home-center"
     style={
       {
-        width: "90%",
+        width: "100%",
       }
     }>
     <Nav/>
 <Header/>
 <Company/>
 <Faq/>
+<Content/>
+<Footer/>
     </div>
 </div>
 </>  )
