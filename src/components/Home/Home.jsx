@@ -4,6 +4,7 @@ import '../Home/Home.css'
 import Counter from '../Counter'
 import Header from '../Helpform'
 import Company from '../Companies'
+import Faq from '../FAQs'
 const Home = () => {
   return (
 <>
@@ -26,6 +27,7 @@ const Home = () => {
     <Nav/>
 <Header/>
 <Company/>
+<Faq/>
     </div>
 </div>
 </>  )
