@@ -20,13 +20,14 @@ export default function Navbar() {
         width: "100%",
         display: "flex",
         justifyContent: "center",
-alignItems: "center",        
+alignItems: "center",   
+     
       }
     }>
 
 <div className="left" style={
   {
-    width: "60%",
+    width: "80%",
     display: "flex",
     justifyContent: "center",
 }}>
@@ -209,7 +210,7 @@ alignItems: "center",
 </div>
 <div className="right" style={
   {
-    width: "40%",
+    width: "20%",
     display: "flex",
     justifyContent: "center",
   }
