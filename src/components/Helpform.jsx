@@ -2,7 +2,7 @@ export const Header = () => {
     return (
       <div className="relative">
         <img
-          src="https://i.ibb.co/NYj3mh1/ppp.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+          src="https://i.ibb.co/DMtKq9w/1687787387979-1687787362140-0-ppp-Quality-Enhance-x2.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
           className="absolute inset-0 object-cover w-full h-full"
           alt=""
         />
