@@ -213,6 +213,7 @@ alignItems: "center",
     width: "20%",
     display: "flex",
     justifyContent: "center",
+    marginTop: "20px"
   }
 }>
 <Counter/>
