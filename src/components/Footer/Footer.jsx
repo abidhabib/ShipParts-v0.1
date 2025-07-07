@@ -39,7 +39,7 @@ export const Footer = () => {
                   Company
                 </span>
               </a>
-              <div className="mt-4 lg:max-w-sm">
+              <div className="mt-4 lg:max-w-sm text-white">
                 <p className="text-sm text-deep-purple-50">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem aperiam.
@@ -50,7 +50,7 @@ export const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+            <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4 text-white">
               <div>
                 <p className="font-semibold tracking-wide text-teal-accent-400">
                   Category
@@ -229,7 +229,7 @@ export const Footer = () => {
             <p className="text-sm text-gray-100">
               © Copyright 2020 Lorem Inc. All rights reserved.
             </p>
-            <div className="flex items-center mt-4 space-x-4 sm:mt-0">
+            <div className="flex items-center mt-4 space-x-4 sm:mt-0 text-white">
               <a
                 href="/"
                 className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
